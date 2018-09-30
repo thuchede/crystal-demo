@@ -1,0 +1,18 @@
+name: kemal-chat
+version: 0.1.0
+
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+    branch: master
+
+authors:
+  - Thomas <huchede.thomas@gmail.com>
+
+targets:
+  kemal-chat:
+    main: src/kemal-chat.cr
+
+crystal: 0.25.1
+
+license: MIT
